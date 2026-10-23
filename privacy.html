@@ -1,0 +1,47 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy - {{APP_NAME}}</title><meta name="description" content="How {{APP_NAME}} accesses, uses, stores and protects data, including Google user data."><link rel="stylesheet" href="style.css"></head><body><header><img src="logo-120.png" alt="{{APP_NAME}} logo"><strong>{{APP_NAME}}</strong><nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a></nav></header><main>
+<h1>Privacy Policy</h1>
+<p class="lead">{{APP_NAME}} ("the app") is provided by {{OWNER}}{{BUSINESS_LINE}}. Last updated: {{DATE}}.</p>
+<h2>In short</h2>
+<div class="card"><ul>
+<li>Your shop data stays on <strong>your computer</strong>. We do not receive it.</li>
+<li>If you choose Google Drive backup, the app uses Google sign-in and stores <strong>encrypted backup files in your own Google Drive</strong>. We cannot read them.</li>
+<li>We do not sell, rent, share or use your data for advertising.</li>
+</ul></div>
+<h2>Information the app handles</h2>
+<table>
+<tr><th>Information</th><th>Why</th><th>Where it is kept</th></tr>
+<tr><td>Shop data you enter (items, sales, customers, dues, photos, settings)</td><td>To run your shop</td><td>A local database and folders on your own computer. Not sent to us.</td></tr>
+<tr><td>Google account email address (only if you use Google Drive backup)</td><td>To show which account is connected and keep one sign-in per computer</td><td>On your computer only.</td></tr>
+<tr><td>Google sign-in tokens (only if you use Google Drive backup)</td><td>To upload and restore your backups without asking you to sign in every time</td><td>On your computer only, in your Windows user profile, protected with Windows account encryption where available.</td></tr>
+<tr><td>Backup files (encrypted)</td><td>To protect you against data loss</td><td>Your computer and, if you enable it, the &ldquo;MotoStock Backups&rdquo; folder in your Google Drive.</td></tr>
+</table>
+<h2>Google user data</h2>
+<p>If you use Google Drive backup, the app asks for these permissions:</p>
+<ul>
+<li><strong>Email address and basic sign-in (openid, email)</strong> - to identify the connected account.</li>
+<li><strong>Google Drive &ldquo;drive.file&rdquo;</strong> - a limited permission that lets the app work <em>only with files it created itself</em>. The app uses it to create the &ldquo;MotoStock Backups&rdquo; folder, upload new encrypted backups, list and download them so you can restore, and delete the oldest backups it created when more than 60 exist. It cannot open, read or change your other Drive files.</li>
+</ul>
+<p><strong>Limited Use.</strong> {{APP_NAME}}'s use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Google user data is used only to provide the backup and restore features you request in the app. It is not transferred to others, not used for advertising, and not read by people.</p>
+<!--RELAY--><p><strong>Sign-in relay.</strong> To complete Google sign-in, the app uses a small relay service operated by {{OWNER}} that forwards the sign-in request to Google. It does not store or log sign-in codes, tokens, email addresses or backup contents.</p><!--/RELAY-->
+<h2>Encryption and security</h2>
+<ul>
+<li>Backups are encrypted on your computer (AES-256-GCM) with a backup password you choose, <strong>before</strong> they leave your computer. If you lose the password, nobody - including us - can open your backups.</li>
+<li>Google sign-in tokens are stored in your Windows user profile and protected with Windows account encryption where available.</li>
+<li>All communication with Google uses HTTPS.</li>
+</ul>
+<h2>Sharing</h2>
+<p>We do not sell or share your information. Information is disclosed only if required by law. The only other party involved is Google, whose services you choose to use under Google's own privacy policy.</p>
+<h2>Retention and deletion</h2>
+<ul>
+<li><strong>Disconnect:</strong> choose <em>Sign out</em> in the app (Settings &amp; Backup). This removes the saved sign-in from your computer and asks Google to revoke it.</li>
+<li><strong>Revoke access:</strong> at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+<li><strong>Delete backups:</strong> delete the &ldquo;MotoStock Backups&rdquo; folder in your Google Drive. Backups remain there until you delete them (the app keeps the newest 60).</li>
+<li><strong>Local data:</strong> uninstalling the app and deleting its folder removes your local database.</li>
+</ul>
+<h2>Children</h2>
+<p>The app is a business tool and is not directed to children under 13.</p>
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be posted here with a new date.</p>
+<h2>Contact</h2>
+<p>{{OWNER}} - <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p>
+</main><footer>&copy; {{YEAR}} {{OWNER}}. {{APP_NAME}} is an independent application and is not affiliated with Google. &middot; <a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Service</a> &middot; <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></footer></body></html>
